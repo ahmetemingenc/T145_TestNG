@@ -15,6 +15,27 @@ import java.time.Duration;
 
 public class C01_FirstTest {
 
+    /*
+        JUnit'de yaptigimiz islemleri
+        TestNG ile de yapabiliriz
+
+        Ama TestNG daha fazla kontrol ve daha fazla promosyona sahiptir
+        Ayrica Java OOP consept tabanli Page Object Model kullanarak
+
+        Test method'larini dinamik hale getirir.
+
+        amac testlerde kullanilan
+        url, aranacak kelime, bulunmasi gereken sonuc sayisi ... gibi test datalarini
+        hangi browser'in kullanilacagi
+        ve webelementler icin locate'leri tek bir yerde tutup
+        degisiklik yapmak gerektiginde
+
+        yuzlerce testi gozden gecirmek yerine
+        tek bir yerden degisiklik yapip
+        tum testlerin yeni datalarla guncellenebilmesidir
+     */
+
+
     WebDriver driver;
 
     @BeforeMethod
