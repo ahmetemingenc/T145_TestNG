@@ -1,5 +1,6 @@
 package utilities;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -54,5 +55,12 @@ public class ReusableMethods {
                 break;
             };
         }
+    }
+
+    public static void javascriptExecutor(WebElement element){
+
+        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+
+        jse.executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
     }
 }

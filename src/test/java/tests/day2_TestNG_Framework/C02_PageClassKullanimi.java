@@ -1,13 +1,10 @@
 package tests.day2_TestNG_Framework;
 
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.TestotomasyonPage;
+import pages.TestotomasyonuPage;
 import utilities.Driver;
-
-import java.util.List;
 
 public class C02_PageClassKullanimi {
 
@@ -22,12 +19,12 @@ public class C02_PageClassKullanimi {
         // Locate edip atama islemleri artik Page Class'larinda olacak
         // ve page class'indaki WebElement'lere obje olusturarak ulasacagiz
 
-        TestotomasyonPage testotomasyonPage = new TestotomasyonPage();
+        TestotomasyonuPage testotomasyonuPage = new TestotomasyonuPage();
 
-        testotomasyonPage.searchBox.sendKeys("phone" + Keys.ENTER);
+        testotomasyonuPage.searchBox.sendKeys("phone" + Keys.ENTER);
 
         // arama sonucunda urun bulunabildigini test edin
-        Assert.assertTrue(testotomasyonPage.productsFoundElementsList.size() > 0);
+        Assert.assertTrue(testotomasyonuPage.productsFoundElementsList.size() > 0);
 
         Driver.quitDriver();
     }

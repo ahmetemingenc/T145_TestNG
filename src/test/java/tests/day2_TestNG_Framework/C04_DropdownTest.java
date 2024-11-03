@@ -1,14 +1,11 @@
 package tests.day2_TestNG_Framework;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.TestotomasyonuFormPage;
 import utilities.Driver;
 import utilities.ReusableMethods;
-
-import java.util.List;
 
 public class C04_DropdownTest {
 
