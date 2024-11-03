@@ -1,4 +1,4 @@
-package tests.day15_testNGFrameWork;
+package tests.day1_testNGFrameWork;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
