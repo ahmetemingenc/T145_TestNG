@@ -9,7 +9,7 @@ import utilities.Driver;
 
 public class C02_DinamikTestDatasiKullanimi {
 
-    @Test
+    @Test(groups = "smoke")
     public void searchTest(){
 
         // testotomasyonu sayfasina dinamik url kullanarak gidin
