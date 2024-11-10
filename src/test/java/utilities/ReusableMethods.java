@@ -57,10 +57,10 @@ public class ReusableMethods {
         }
     }
 
-    public static void javascriptExecutor(WebElement element){
+    public static void javascriptExecutor(WebElement hedefElement){
 
         JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
 
-        jse.executeScript("arguments[0].scrollIntoView({block: 'center'});", element);
+        jse.executeScript("arguments[0].scrollIntoView({block: 'center'});", hedefElement);
     }
 }
