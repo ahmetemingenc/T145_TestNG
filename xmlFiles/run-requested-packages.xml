@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Monthly Tests">
+
+    <test name="Monthly Test">
+
+        <packages>
+
+            <package name="tests.day1_testNGFrameWork"></package>
+            <package name="tests.day4_TestNGFramework_Assertions"></package>
+
+        </packages>
+
+    </test>
+
+</suite>

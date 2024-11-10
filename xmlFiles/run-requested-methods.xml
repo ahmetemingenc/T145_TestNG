@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Run Requested Methods">
+    
+    <test name="Run Method">
+        
+        <classes>
+            <class name="tests.day3_TestNGFramework_Assertions.C04_NegativeLoginTest">
+                
+                <methods>
+                    <include name="C04_NegativeLoginTest"></include>
+                </methods>
+                
+            </class>
+            
+            <class name="tests.day1_testNGFrameWork.C02_Priority">
+                
+                <methods>
+                    <exclude name="testotomasyonuTest"></exclude>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>
