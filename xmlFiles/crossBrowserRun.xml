@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Cross Browser Tests">
+    
+    <test name="Tests to run with Chrome">
+        <parameter name="browserToUse" value="chrome"></parameter>
+        
+        <classes>
+            <class name="tests.day6_crossBrowserTest.C01_CrossBrowserSearchTest"></class>
+        </classes>
+        
+    </test>
+
+    <test name="Tests to run with Firefox">
+        <parameter name="browserToUse" value="firefox"></parameter>
+
+        <classes>
+            <class name="tests.day6_crossBrowserTest.C01_CrossBrowserSearchTest"></class>
+        </classes>
+
+    </test>
+    
+</suite>

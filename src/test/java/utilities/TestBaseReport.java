@@ -13,6 +13,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public abstract class TestBaseReport {
+
     public static ExtentReports extentReports; // initializes extent report
     protected static ExtentTest extentTest; // logs test results as pass or fail; also used for adding screenshots
     protected static ExtentHtmlReporter extentHtmlReporter; // organizes the HTML report

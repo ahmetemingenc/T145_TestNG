@@ -37,4 +37,6 @@ public class TestotomasyonuPage {
     @FindBy(xpath = "//span[text()='Logout']")
     public WebElement logoutButton;
 
+    @FindBy(className = "product-count-text")
+    public WebElement resultWebElement;
 }
